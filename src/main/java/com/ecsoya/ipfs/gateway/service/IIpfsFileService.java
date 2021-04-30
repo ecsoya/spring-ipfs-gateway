@@ -5,7 +5,7 @@ import java.io.InputStream;
 import com.ecsoya.ipfs.gateway.domain.IpfsFile;
 import com.ecsoya.ipfs.gateway.exception.IpfsFileException;
 
-public interface IpfsFileService {
+public interface IIpfsFileService {
 
 	/**
 	 * Upload file with inputstream

@@ -5,6 +5,8 @@ import io.ipfs.multiaddr.MultiAddress;
 
 public class IpfsClient extends IPFS {
 
+	private String gateway;
+
 	public IpfsClient(MultiAddress addr) {
 		super(addr);
 	}
@@ -24,6 +26,14 @@ public class IpfsClient extends IPFS {
 
 	public IpfsClient(String multiaddr) {
 		super(multiaddr);
+	}
+
+	public String getGateway() {
+		return gateway;
+	}
+
+	public void setGateway(String gateway) {
+		this.gateway = gateway;
 	}
 
 }

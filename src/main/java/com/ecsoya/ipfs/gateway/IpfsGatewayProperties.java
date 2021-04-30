@@ -106,6 +106,7 @@ public class IpfsGatewayProperties {
 				}
 			}
 			ipfs = new IpfsClient(host, port, version, connectTimeoutMillis, readTimeoutMillis, ssl);
+			ipfs.setGateway(gateway);
 		}
 		return ipfs;
 	}
