@@ -98,4 +98,15 @@
 			<url>https://jitpack.io</url>
 		</repository>
 	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>rdc-releases</id>
+			<url>https://repo.rdc.aliyun.com/repository/42210-release-mI5S4B/</url>
+		</repository>
+		<snapshotRepository>
+			<id>rdc-snapshots</id>
+			<url>https://repo.rdc.aliyun.com/repository/42210-snapshot-BITvCn/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
